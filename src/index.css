@@ -12,7 +12,9 @@ iframe {
   height:calc(100vh - 4px);
   width:calc(100vw - 4px);
   box-sizing: border-box;
-
+  background-image: url("fidget-spinner.gif");
+  background-repeat: no-repeat;  
+  background-position: center;
 }
 
 
