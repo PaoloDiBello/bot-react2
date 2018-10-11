@@ -1,6 +1,7 @@
 section {
   max-width: 450px;
   max-height:58vh;
+  min-height:58vh;/*to stay always full width*/
   margin: 20px auto;
   margin-bottom:0px!important;
   overflow:auto;
@@ -26,6 +27,7 @@ section div {
 }
 
 section div:not(:last-child):after {
+  content: "";
   display: table;
   clear: both;
 }
