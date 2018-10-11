@@ -1,7 +1,8 @@
 body {
+ /* background: url(imga.png) no-repeat center center fixed; */
+  background-color:#F2F2F2;
   overflow:hidden;
-  background: url(imga.png) no-repeat center center fixed; 
-  background-color:#F2F2F2;}
+}
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
@@ -12,9 +13,10 @@ iframe {
   height:calc(100vh - 4px);
   width:calc(100vw - 4px);
   box-sizing: border-box;
-  background-image: url("fidget-spinner.gif");
+  background-image: url("spinner.svg");
   background-repeat: no-repeat;  
   background-position: center;
+  background-size: 6.5%;
 }
 
 
