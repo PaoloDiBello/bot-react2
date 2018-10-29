@@ -21,7 +21,6 @@ class Messages extends React.Component {
     /*when the message is not only spaces*/
     newObj.push({"id":"human","text":this.state.input,"time":time,"milliseconds":milliseconds});
     this.setState({chat: newObj});  
-
   }
 
   handleChange(event) {
@@ -33,6 +32,8 @@ class Messages extends React.Component {
   this.handleClick()
     }
   }
+
+/*for the animation when a message is being sent*/
 
 scrollToBottom = () => {
   this.messagesEnd.scrollIntoView({ behavior: "smooth" });
@@ -46,22 +47,29 @@ componentDidUpdate() {
   this.scrollToBottom();
 }
 
+/***************************************************/
+
   render() {
+
+/*rotation of the icon of the send button*/
+   
     const deg=45;
   const style_1 = { 
         transform: `rotate(${deg}deg)`
     };
 
+  /*it maps through the array of messages*/
+
   let items=Object.keys(this.state.chat).map((key, i) => {
   let current_time = new Date(); // for now
-  let key_each=this.state.chat[key].text+this.state.chat[key].time+this.state.chat[key].milliseconds;
   let time=current_time.getHours()+":"+(current_time.getMinutes()<10?'0':'')+current_time.getMinutes();
-
-//  console.log(key_each);
+//let key_each=this.state.chat[key].text+this.state.chat[key].time+this.state.chat[key].milliseconds;
+ 
   return ( 
-    <div key={key_each}>
+
+    <div>
     {this.state.chat[key].id==="human"? 
-    (<div>
+    (<div key={i}>
     <div className="from-me">
       <p>{this.state.chat[key].text}
   <span className="metadata">
@@ -71,7 +79,7 @@ componentDidUpdate() {
 
     </div>
     </div>):
-    (<div key={key_each}>
+    (<div key={i}>
     <div className="from-them">
       <p>{this.state.chat[key].text}
       <span className="metadata">
@@ -87,17 +95,17 @@ componentDidUpdate() {
 
 <div className="Messages">
 
-
           <section>
 
                   <TransitionGroup enter>
                     {items}
                  </TransitionGroup>
 
+{/*for the animation triggered each time a new message is entered */}
+
         <div style={{ float:"left", clear: "both" }}
              ref={(el) => { this.messagesEnd = el; }}>
         </div>
-
 
           </section>
 
