@@ -18,10 +18,12 @@ class Messages extends React.Component {
     let time=current_time.getHours()+":"+(current_time.getMinutes()<10?'0':'')+current_time.getMinutes();
     let milliseconds=current_time.getMilliseconds();
     this.setState({ input: '' });  
-    /*when the message is not only spaces*/
+    /* when the message is not only spaces */
     newObj.push({"id":"human","text":this.state.input,"time":time,"milliseconds":milliseconds});
     this.setState({chat: newObj});  
   }
+
+    /* test with GitKraken*/
 
   handleChange(event) {
   this.setState({ input: event.target.value });
