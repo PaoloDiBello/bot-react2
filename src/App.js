@@ -2,9 +2,9 @@ import React, { Component } from "react";
 /*import logo from './logo.svg';*/
 import "./App.css";
 import Messages from "./Messages";
-import img from "./badge_blue2.png";
+import img from "./assets/badge_blue2.png";
 /*import imga from './imga.png';*/
-import img2 from "./eva_is_listenig.png";
+import img2 from "./assets/eva_is_listenig.png";
 
 class App extends Component {
   render() {
