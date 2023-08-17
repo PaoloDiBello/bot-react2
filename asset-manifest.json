@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/paolodibello.github.io/bot-react2/static/css/main.da2778c6.css",
-    "main.js": "/paolodibello.github.io/bot-react2/static/js/main.d7cfb6bf.js",
-    "static/media/badge_blue2.png": "/paolodibello.github.io/bot-react2/static/media/badge_blue2.feb6b58ca7444317b827.png",
-    "static/media/spinner.svg": "/paolodibello.github.io/bot-react2/static/media/spinner.a5922fb82bf97073710c.svg",
-    "index.html": "/paolodibello.github.io/bot-react2/index.html",
-    "main.da2778c6.css.map": "/paolodibello.github.io/bot-react2/static/css/main.da2778c6.css.map",
-    "main.d7cfb6bf.js.map": "/paolodibello.github.io/bot-react2/static/js/main.d7cfb6bf.js.map"
+    "main.css": "/bot-react2/static/css/main.4234af15.css",
+    "main.js": "/bot-react2/static/js/main.dabda27b.js",
+    "static/media/badge_blue2.png": "/bot-react2/static/media/badge_blue2.feb6b58ca7444317b827.png",
+    "static/media/spinner.svg": "/bot-react2/static/media/spinner.a5922fb82bf97073710c.svg",
+    "index.html": "/bot-react2/index.html",
+    "main.4234af15.css.map": "/bot-react2/static/css/main.4234af15.css.map",
+    "main.dabda27b.js.map": "/bot-react2/static/js/main.dabda27b.js.map"
   },
   "entrypoints": [
-    "static/css/main.da2778c6.css",
-    "static/js/main.d7cfb6bf.js"
+    "static/css/main.4234af15.css",
+    "static/js/main.dabda27b.js"
   ]
 }
