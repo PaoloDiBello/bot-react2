@@ -109,7 +109,9 @@ section div:not(:last-child):after {
 }
 
 .input-group-addon {
-  height: 35px !important;
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
 }
 
 input:focus {
