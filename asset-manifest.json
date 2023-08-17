@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bot-react2/static/css/main.9e0b33ef.css",
-    "main.js": "/bot-react2/static/js/main.d5eaf457.js",
+    "main.js": "/bot-react2/static/js/main.b1a0940a.js",
     "static/media/badge_blue2.png": "/bot-react2/static/media/badge_blue2.feb6b58ca7444317b827.png",
     "static/media/spinner.svg": "/bot-react2/static/media/spinner.a5922fb82bf97073710c.svg",
     "index.html": "/bot-react2/index.html",
     "main.9e0b33ef.css.map": "/bot-react2/static/css/main.9e0b33ef.css.map",
-    "main.d5eaf457.js.map": "/bot-react2/static/js/main.d5eaf457.js.map"
+    "main.b1a0940a.js.map": "/bot-react2/static/js/main.b1a0940a.js.map"
   },
   "entrypoints": [
     "static/css/main.9e0b33ef.css",
-    "static/js/main.d5eaf457.js"
+    "static/js/main.b1a0940a.js"
   ]
 }
